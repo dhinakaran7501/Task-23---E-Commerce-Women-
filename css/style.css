@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+.main_container{
+    width: 1045px;
+    margin: 16px auto 10px;
+    border: 1px solid;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 8px;
+	font-family: Inter var, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.header_section{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 0px 7px;	
+}
+.two_container{
+	margin:25px 11px;
+	display:flex;
+}
+.container1{
+	
+}
+.image_section{
+	display: flex;
+    align-items: center;
+	gap:25px;
+	margin:20px 1px;
+}
+.container2{
+    padding:0px 0px 0px 21px;
+	width:415px;
+}
+.image1{
+	width:563px;
+    border-radius: 5px;
+}
+.image2{
+	width:266px;
+    border-radius: 5px;
+}
+.title_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+.rating_section{
+    margin: 13px 0px;		
+}
+.star_icon{
+	display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.star_icon>a{
+	text-decoration:none;
+	color:#4F46E5;
+}
+.fa-star{
+	color:gold;
+}
+.star5{
+	color:lightgray;
+}
+.color_section{
+	margin:25px 0px 10px;
+}
+.color_palatte{
+    margin: 7px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.circle1_border{
+	width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+.circle1{
+	width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+}
+.circle2{
+	width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.size_container{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin:23px 1px 7px;
+    font-weight: 600;
+}
+.size_container>a{
+	text-decoration:none;
+}
+.size_section{
+	display:flex;
+	flex-wrap:wrap;
+	gap:9px;
+}
+.size_section .size1{
+    width: 58px;
+    height: 36px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.size1{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-weight:bold;
+}
+.box3{
+	background-color:white;
+	border:1px solid lightgray;
+	border-radius:5px;
+	color:lightgray;
+}
+.box2{
+	background-color:blue;
+	color:white;
+	border:1px solid blue;
+}
+.des{
+	cursor:not-allowed;
+}
+.addtocart_section{
+	background-color:blue;
+	margin: 26px 0px;
+    padding: 12px;
+    border-radius: 5px;
+	text-align:center;
+}
+.addtocart_section>a{
+	text-decoration:none;
+	font-weight:600;
+	color:white;
+}
+.description_section{
+    margin: 33px 1px 25px;
+    width: 397px;
+}
+.description_section>.para1{
+	margin: 14px 0px;
+    line-height: 19px;
+}
+.description_section>.para2{
+	margin: 15px 0px;
+    line-height: 18px;
+}
+.list_section{
+	margin: 27px 1px;
+}
+ul{
+	margin: 12px 23px;
+    line-height: 22px;
+}
+.end_section{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	gap:21px;
+}
+.delivery_section{
+	width: 389px;
+    height: 103px;
+    background-color: #F9FAFB;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+	display:flex;
+	justify-content:center;
+	align-items:center;	
+	flex-direction:column;
+	gap:4px;
+}
+.reward_section{
+	width: 389px;
+    height: 103px;
+    background-color: #F9FAFB;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	gap:4px;
+}
+.dollar, .global{
+	color:gray;
+}
